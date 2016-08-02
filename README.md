@@ -1,5 +1,5 @@
-# gst-plugins-bad-gtk3
-GStreamer Multimedia Framework Bad Plugins, built with gtk3 support. Install it with:
+# libgstgtkskin
+A gtk plugin for Gstreamer. Install it with:
 ```
-kcp -i gst-plugins-bad-gtk3
+kcp -i libgstgtkskin
 ```
