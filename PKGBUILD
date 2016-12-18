@@ -1,7 +1,7 @@
 pkgname=libgstgtkskin
 _realpkgname=gst-plugins-bad
 pkgver=1.10.2
-pkgrel=1
+pkgrel=2
 pkgdesc="A gtk plugin for Gstreamer"
 arch=('x86_64')
 license=('LGPL')
