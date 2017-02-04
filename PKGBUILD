@@ -1,7 +1,7 @@
 pkgname=libgstgtkskin
 _realpkgname=gst-plugins-bad
-pkgver=1.10.2
-pkgrel=2
+pkgver=1.10.3
+pkgrel=1
 pkgdesc="A gtk plugin for Gstreamer"
 arch=('x86_64')
 license=('LGPL')
@@ -10,7 +10,7 @@ depends=( 'gst-plugins-base' 'gtk3')
 makedepends=('gobject-introspection')
 options=('!libtool' '!emptydirs')
 source=("http://gstreamer.freedesktop.org/src/gst-plugins-bad/${_realpkgname}-${pkgver}.tar.xz")
-md5sums=('823f4c33fe27c61332c0122273217988')
+md5sums=('e59798c86a670041de2e61856ea43d2a')
 
 build() {
   cd ${_realpkgname}-${pkgver}
